@@ -1,0 +1,2 @@
+INSERT INTO flights(id, number, origin, destination, departure_date, departure_time, arrival_date, arrival_time, plane_id)
+VALUES(NEXTVAL('flights_sequence_in_database'), '1515', 'Paris', 'Lisbonne', '2023-09-20', '01:30:00', '2023-09-20', '13:45:10', 1);
